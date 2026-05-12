@@ -1,28 +1,28 @@
 class Mino < Formula
   desc "Tiny, embeddable Lisp in pure ANSI C"
   homepage "https://mino-lang.org"
-  version "0.145.0"
+  version "0.148.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/leifericf/mino/releases/download/v0.145.0/mino_darwin_arm64_v0.145.0.tar.gz"
-      sha256 "26cb674896f4b076109cd92ffce631668d4e004ca154eb5add5713bcdf994a2e"
+      url "https://github.com/leifericf/mino/releases/download/v0.148.0/mino_darwin_arm64_v0.148.0.tar.gz"
+      sha256 "e0d89fa61a6aeb8dc861ffd9498f86c902cb5cd401526527eda1cea8cd7f695b"
     end
     on_intel do
-      url "https://github.com/leifericf/mino/releases/download/v0.145.0/mino_darwin_amd64_v0.145.0.tar.gz"
-      sha256 "b995721ad0c0714f748435fd43364bf179c127c6e4930e06468042fe6771aee5"
+      url "https://github.com/leifericf/mino/releases/download/v0.148.0/mino_darwin_amd64_v0.148.0.tar.gz"
+      sha256 "0cf6d1d8a0271d923e89865c398f85346c0a2ed8998f9b55c15d8615a7261c97"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/leifericf/mino/releases/download/v0.145.0/mino_linux_arm64_v0.145.0.tar.gz"
-      sha256 "924ba8bf28a02db2f506732d06b1b52c7a622993f0c2a1ec2759ae4fdbab4542"
+      url "https://github.com/leifericf/mino/releases/download/v0.148.0/mino_linux_arm64_v0.148.0.tar.gz"
+      sha256 "7d74417bb282f556773482713306a38553af4254d376f08fad8e61a75e0c141f"
     end
     on_intel do
-      url "https://github.com/leifericf/mino/releases/download/v0.145.0/mino_linux_amd64_v0.145.0.tar.gz"
-      sha256 "8493b32a585ffd92f659c2633a7dc9ed3b06b1a3c3881aafd7c879dbc0957bda"
+      url "https://github.com/leifericf/mino/releases/download/v0.148.0/mino_linux_amd64_v0.148.0.tar.gz"
+      sha256 "42369de7f5a9c5067a8828ffcaeed53b00b7dd63932e5e6c80e6d462ed465e6e"
     end
   end
 
